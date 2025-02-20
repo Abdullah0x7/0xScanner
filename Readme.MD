@@ -118,8 +118,7 @@ Contributions are welcome! If you have suggestions or bug fixes, please fork the
 ---
 
 ## License
-
-This project is licensed under the MIT License.
+This project is licensed under the MIT [LICENSE](./LICENSE).
 
 ---
 
