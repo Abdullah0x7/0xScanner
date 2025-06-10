@@ -136,12 +136,12 @@ python3 0xScanner.py -t target.local -p 1-65535 --timeout 2 --max-workers 50
 ### Core Components
 
 ```
+# File structure:
 0xScanner/
-├── scanner.py          # Main scanner class
-├── config.py          # Configuration management
-├── security.py        # Security validation
-├── logger.py          # Professional logging
-└── exporters.py       # Result export handlers
+├── 0xScanner.py          # Main script
+├── README.md             # Updated documentation  
+├── LICENSE               # Keep this
+└── .gitignore           # Good to have
 ```
 
 ### Key Classes
@@ -209,18 +209,6 @@ python3 0xScanner.py -t 127.0.0.1 -p 22,80,443
 5. Commit changes (`git commit -m 'Add amazing feature'`)
 6. Push to branch (`git push origin feature/amazing-feature`)
 7. Open a Pull Request
-
-### Development Setup
-```bash
-# Install development dependencies
-pip install -e ".[dev]"
-
-# Run code formatting
-black 0xScanner.py
-
-# Run linting
-flake8 0xScanner.py
-```
 
 ## 📝 Changelog
 
